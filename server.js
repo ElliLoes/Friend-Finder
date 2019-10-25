@@ -10,7 +10,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 // For serving of static CSS
-app.use(express.static(__dirname + "/app/publicfriend"));
+app.use(express.static(__dirname + "/app/public"));
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));

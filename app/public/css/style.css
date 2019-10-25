@@ -1,0 +1,12 @@
+.body {
+    background: whitesmoke;
+}
+
+.jumbotron {
+    background: darkslategrey;
+    opacity: inherit;
+}
+
+.chosen-select {
+    color: black;
+}
