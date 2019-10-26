@@ -167,7 +167,7 @@
         </form>
         <hr>
         <p>
-            <span><a href="/api/friends">API Friend List</a> | </span>
+            <span><a href="/api/friends">API Friend List</a> | <a href="https://github.com/ElliLoes/Friend-Finder.git">GitHub Repo</a></span>
         </p>
         <!-- Error Modal -->
         <div id="errorModal" class="modal fade" role="dialog">
@@ -238,7 +238,6 @@
                 var currentURL = window.location.origin;
                 // Ajax call for receiving response after POST req
                 $.post(currentURL + "/api/friends", newUser, function (response) {
-                    console.log(response);
                     var bestMatch = response[0];
                     $("#resultFriend").text(bestMatch.name);
                     $("#resultPhoto").attr("src", bestMatch.photo);
