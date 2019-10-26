@@ -24,8 +24,6 @@ module.exports = function(app) {
 
             var minimumDifference = Math.min.apply(null, differences);
             var bestMatches = [];
-            console.log("differences:", differences);
-            console.log("minimum:", minimumDifference);
             for (var i=0; i < differences.length; i++) {
                 if (differences[i] === minimumDifference) {
                     bestMatches.push(friends[i]);
