@@ -1,12 +1,17 @@
-.body {
-    background: whitesmoke;
+body {
+    background: #778899;
 }
 
 .jumbotron {
-    background: darkslategrey;
+    background: #708090;
     opacity: inherit;
 }
 
 .chosen-select {
     color: black;
+}
+
+#resultPhoto {
+    max-width: 100%;
+    max-height: 100%;
 }
